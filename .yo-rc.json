@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "baseName": "AR_clinic",
+    "packageName": "com.ardc.clinic",
+    "packageFolder": "com/ardc/clinic",
+    "authenticationType": "xauth",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "f843035b1fe86081f15ebf9d8f3351feb4c7805f",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ]
+  }
+}
